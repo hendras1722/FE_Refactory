@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import { Switch, BrowserRouter as Router, Route } from 'react-router-dom'
+import Login from './Pages/Login'
+import Home from './Pages/Home'
+import Courses from './Pages/courses'
+import Costum from './Pages/Custom'
+import Case from './Pages/case'
+import CoursesList from './Pages/coursesList'
+import CoursesDetail from './Pages/coursesList/courseDetail'
+import 'antd/dist/antd.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route component={Login} path="/login" />
+        <Route component={Home} exact path="/" />
+        <Route component={Courses} path="/courses" />
+        <Route component={Costum} path="/costum" />
+        <Route component={Case} path="/case-studies" />
+        <Route component={CoursesList} path="/dashboard" />
+        <Route component={CoursesDetail} path="/detail/:id" />
+      </Switch>
+    </Router>
   );
 }
 

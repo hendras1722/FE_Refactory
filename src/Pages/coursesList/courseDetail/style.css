@@ -1,0 +1,33 @@
+.cover6{
+    background-image: url('https://cdn.fs.teachablecdn.com/RBZMT9GSASWBQNBzWhJM');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+}
+.bg6 {
+    background-color: transparent;
+    background-image: linear-gradient(110deg, #00256C 10%, #04ACA4 90%);
+    opacity: 0.75;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition:  border-radius 0.3s, opacity 0.3s;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+}
+.ant-list-bordered {
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    background: #F0F0F0;
+}
+.ant-list-bordered .ant-list-header {
+    padding-right: 24px;
+    padding-left: 24px;
+    background: #E8E8E8;
+}
+.ant-list-bordered .ant-list-item:hover {
+    background-color: #E8E8E8;
+}

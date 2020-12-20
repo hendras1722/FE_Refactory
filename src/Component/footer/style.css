@@ -1,0 +1,13 @@
+ul li {
+    color: #FFF;
+}
+
+.footernya{
+    background-color: #35B4AE;
+    background-image: linear-gradient(90deg, #2852a2 21.72%, #35B4AE 75.43%) !important;
+    width: 100%;
+}
+
+.footernya label{
+    color: #FFF;
+}

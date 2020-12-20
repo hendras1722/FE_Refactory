@@ -1,0 +1,44 @@
+.first{
+    overflow-x: hidden;
+}
+.cover{
+    background-image: url('https://refactory.id/wp-content/uploads/2020/01/hero-homepage.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.bg {
+    background-color: transparent;
+    background-image: linear-gradient(110deg, #00256C 10%, #04ACA4 90%);
+    opacity: 0.75;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition:  border-radius 0.3s, opacity 0.3s;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.bg-partner{
+    background-image: linear-gradient(110deg, #00256C 10%, #04ACA4 90%);
+    width: 100%;
+}
+
+.knowledge{
+    background-image: url("https://refactory.id/wp-content/uploads/2020/01/ripple-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+
+.assen{
+    filter: grayscale(100%);
+}
+
+.assen:hover{
+    filter: none;
+}

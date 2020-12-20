@@ -1,0 +1,4 @@
+.titles a:active, .titles a:hover{
+    color: #E48800 !important;
+    text-decoration: none;
+}

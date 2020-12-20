@@ -1,0 +1,19 @@
+.bg-login {
+    background-color: transparent;
+    background-image: linear-gradient(110deg, #051431 10%, #010404 90%);
+    opacity: 0.8;
+    transition:  border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.cover-login{
+    background-image: url('https://refactory.id/wp-content/uploads/2020/01/hero-homepage.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.CardStyle label {
+    color: white !important;
+}
