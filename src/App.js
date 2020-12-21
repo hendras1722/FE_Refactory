@@ -7,6 +7,7 @@ import Costum from './Pages/Custom'
 import Case from './Pages/case'
 import CoursesList from './Pages/coursesList'
 import CoursesDetail from './Pages/coursesList/courseDetail'
+import Blog from './Pages/Blog'
 import 'antd/dist/antd.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route component={Case} path="/case-studies" />
         <Route component={CoursesList} path="/dashboard" />
         <Route component={CoursesDetail} path="/detail/:id" />
+        <Route component={Blog} path="/blog" />
       </Switch>
     </Router>
   );
